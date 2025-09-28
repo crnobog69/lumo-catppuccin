@@ -1,0 +1,123 @@
+@-moz-document domain("lumo.proton.me") {
+/* Catppuccin Mocha Red theme for Proton lumo */
+
+
+
+	:root {
+		--primary: #cdd6f4;
+
+		--background-norm: #1e1e2e;
+		--background-strong: #313244;
+		--background-weak: #181825;
+
+		--text-norm: #cdd6f4;
+		--text-weak: #bac2de;
+
+		--selection-background-color: #f38ba8;
+		--selection-text-color: #1e1e2e;
+
+		--field-background-color: #313244;
+		--field-text-color: #cdd6f4;
+		--field-placeholder-color: #9399b2;
+		--field-norm: #45475a;
+
+		--button-hover-background-color: #45475a;
+		--button-default-border-color: #313244;
+
+		--interaction-norm: #f38ba8;
+		--interaction-norm-contrast: #1e1e2e;
+		--interaction-norm-major-1: #eba0ac;
+		--interaction-norm-major-2: #f5c2e7;
+		--interaction-weak: #45475a;
+		--interaction-weak-major-1: #45475a;
+		--interaction-weak-major-2: #45475a;
+		--interaction-weak-major-3: #45475a;
+		--interaction-weak-minor-1: #181825;
+		--interaction-weak-minor-2: #313244;
+		--interaction-weak-minor-3: #45475a;
+
+		--interaction-default-active: #45475a;
+
+		--signal-danger: #f38ba8;
+		--signal-danger-major-1: #eba0ac;
+		--signal-danger-major-2: #f5c2e7;
+		--signal-danger-contrast: #1e1e2e;
+
+		--border-norm: #6c7086;
+		--border-weak: #45475a;
+
+		--shadow-default-color: #11111b;
+	}
+
+	img[src*="lumo-logo"] {
+		filter: grayscale(1) invert(1);
+	}
+
+	.ghost-btn-active {
+		background-color: #45475a;
+	}
+
+	.rectangle-skeleton {
+		background-image: linear-gradient(90deg, #313244, #313244 35%, #45475a 50%, #313244 65%, #313244);
+	}
+
+	.markdown-rendering {
+		color: #cdd6f4;
+	}
+
+	.markdown-rendering > .flex {
+		max-width: 100%;
+	}
+
+	.markdown-rendering code:not(pre code) {
+		background-color: #45475a;
+		color: #a6adc8;
+		border-color: #585b70;
+	}
+
+	.markdown-rendering code span.token {
+		color: #f38ba8 !important;
+	}
+
+	.markdown-rendering pre {
+		background-color: #45475a;
+	}
+
+	.markdown-rendering pre code {
+		color: #cdd6f4;
+	}
+
+	.markdown-rendering pre .code-container div[style*="background"] {
+		background-color: #45475a !important;
+	}
+
+	.markdown-rendering pre .code-container div[style*="background"] code {
+		color: #cdd6f4;
+	}
+
+	.lumo-input-container {
+		background-color: var(--background-weak) !important;
+	}
+
+	.lumo-chat-container .avatar-and-notice .lumo-avatar svg g > g:first-of-type g path {
+		fill: #313244;
+	}
+
+	.web-search-button.is-active {
+		background-color: #313244;
+		color: #f38ba8;
+	}
+
+	.files-panel-content {
+		background-color: #181825;
+	}
+
+	.files-panel-content .knowledge-info-area {
+		background-color: #313244;
+	}
+
+	/* Hide Premium buttons */
+	.lumo-upgrade-trigger {
+		display: none;
+	}
+}
