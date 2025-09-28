@@ -6,3 +6,5 @@
 I don't care if there are some parts that are not colored like they should be.
 
 Userstyle for Proton Lumo with Catppuccin Mocha Red
+
+Made for: (Stylus)[https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en]
